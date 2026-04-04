@@ -1,0 +1,535 @@
+{
+  "business": {
+    "name": "Horizon Landscaping",
+    "phone": "555-lan-rq8",
+    "category": "landscaping",
+    "city": "Portland",
+    "state": "OR"
+  },
+  "design": {
+    "preset": {
+      "id": "landscaping-trust-navy",
+      "categoryGroup": "landscaping",
+      "name": "Trust Navy",
+      "recipeFile": "landscaping/trust-navy.astro",
+      "colors": {
+        "primary": "#16A34A",
+        "primaryDark": "#14532D",
+        "primaryLight": "#c5e8d2",
+        "secondary": "#138b3f",
+        "accent": "#65A30D",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#16A34A",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "700",
+        "bodyFont": "Lato",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "landscaping/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Landscaping Tailored to Portland’s Unique Climate",
+      "heroSubline": "Expert care for gardens thriving in Oregon's rainy winters and dry summers. From moss-resistant designs to earthquake-resilient hardscaping, we solve local challenges.",
+      "aboutTitle": "Rooted in Portland’s Landscape",
+      "aboutText": [
+        "Founded in 2012, Horizon Landscaping began with restoring historic Craftsman bungalows in the Hawthorne district. We specialize in solutions for damp Pacific Northwest conditions.",
+        "Our team combines horticultural knowledge with structural engineering for landscapes that endure. We prioritize native plants, proper drainage, and materials resistant to wood rot.",
+        "As active members of the Portland Urban Forestry Commission, we’re committed to sustainable practices that enhance our neighborhoods."
+      ],
+      "valueProps": [
+        {
+          "title": "Moss Management",
+          "description": "Specialized treatments to prevent slippery surfaces while preserving beneficial moss in shaded areas"
+        },
+        {
+          "title": "Earthquake-Ready Designs",
+          "description": "Retaining walls and hardscapes built with seismic movement in mind"
+        },
+        {
+          "title": "Native Plant Expertise",
+          "description": "Drought-resistant summer plantings that thrive in our wet winters"
+        },
+        {
+          "title": "Winterization Plans",
+          "description": "Protecting delicate plants from rare ice storms without harsh chemicals"
+        }
+      ],
+      "ctaHeadline": "Let’s Create a Landscape That Grows With You",
+      "ctaSubline": "Schedule a free site assessment to discuss solutions for your specific microclimate"
+    },
+    "services": [
+      {
+        "slug": "rain-garden-installation",
+        "name": "Rain Garden Installation",
+        "shortDescription": "Transform drainage problems into thriving native plant displays",
+        "description": "Portland's average 43 inches of annual rainfall can overwhelm traditional landscapes. Our rain gardens use 12-18\" deep basins filled with gravel and compost to absorb stormwater runoff naturally.\n\nWe select plants like red-twig dogwood and Douglas spirea that tolerate both temporary flooding and summer dryness. Each design includes an overflow channel to prevent basement flooding during extreme downpours.\n\nFor sloped properties in the West Hills, we incorporate terraced stone walls to slow water flow. All installations come with a 3-year plant health guarantee.",
+        "process": [
+          "Step 1: Percolation test to determine soil absorption rates",
+          "Step 2: Custom design meeting with drainage engineer",
+          "Step 3: Excavation with protection for existing tree roots",
+          "Step 4: Native plant installation with mycorrhizal amendments"
+        ],
+        "benefits": [
+          "Reduces neighborhood stormwater overflow",
+          "Attracts pollinators with native blooms",
+          "Eliminates standing water in low spots",
+          "Qualifies for Portland's Clean River Rewards discount"
+        ],
+        "faq": [
+          {
+            "question": "Will rain gardens breed mosquitoes?",
+            "answer": "Properly designed rain gardens drain within 48 hours, preventing mosquito breeding. We include mosquito-dunk tablets in overflow areas for added protection during wet springs."
+          },
+          {
+            "question": "How do they fare in drought?",
+            "answer": "Deep-rooted natives access water reserves other plants can't. During the 2022 drought, our rain gardens outperformed traditional lawns by 3:1 survival rates."
+          }
+        ]
+      },
+      {
+        "slug": "historic-property-landscaping",
+        "name": "Historic Property Landscaping",
+        "shortDescription": "Period-appropriate designs honoring Portland’s architectural heritage",
+        "description": "Restoring landscapes for Portland’s 1900s-1920s homes requires understanding historical materials and growth patterns. We source reclaimed brick for pathways matching original Craftsman color palettes and propagate heirloom roses from local specimens.\n\nOur team documents original landscape features through city archives before designing. For Alberta Arts District bungalows, we often recreate the mixed border gardens popular in the 1910s using antique plant varieties.\n\nAll work meets Portland Historic Landmarks Commission guidelines while incorporating modern drainage solutions discreetly. We’ve successfully completed 42 historic property projects since 2018.",
+        "process": [
+          "Step 1: Archival research at Portland Historical Society",
+          "Step 2: Soil remediation for lead-safe planting",
+          "Step 3: Hardscape installation with traditional mortar techniques",
+          "Step 4: Heirloom plant sourcing from specialty nurseries"
+        ],
+        "benefits": [
+          "Increases property value through historical accuracy",
+          "Preserves neighborhood character",
+          "Uses durable materials proven over decades",
+          "Eligible for property tax abatement programs"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my home’s original plants?",
+            "answer": "We maintain relationships with specialty growers who preserve heritage cultivars. Recently identified a 1912 peony variety for a Laurelhurst home using vintage nursery catalogs."
+          },
+          {
+            "question": "We conceal French drains under replicated brick edging and use permeable pavers in carriage house driveways. One Alberta Arts project hid an irrigation system within a replica 1920s garden shed."
+          }
+        ]
+      },
+      {
+        "slug": "earthquake-resilient-hardscaping",
+        "name": "Earthquake-Resilient Hardscaping",
+        "shortDescription": "Beautiful outdoor living spaces prepared for seismic activity",
+        "description": "Portland sits in Cascadia Subduction Zone, requiring special considerations for patios and walkways. Our dry-stacked stone walls include geogrid reinforcement and expansion joints that allow movement without collapse.\n\nFor modern concrete work, we use fiber-reinforced mixes with flexible polymer additives. Flagstone patios get a 6\" gravel base that absorbs minor tremors. All projects include a post-installation inspection by a licensed geotechnical engineer.\n\nRecent work in the Pearl District demonstrates how decorative elements can also be functional - steel gabion walls double as seismic buffers while showcasing local basalt.",
+        "process": [
+          "Step 1: Soil compaction testing",
+          "Step 2: Flexible base layer installation",
+          "Step 3: Movement-accommodating joint design",
+          "Step4: Post-installation engineering certification"
+        ],
+        "benefits": [
+          "Prevents costly seismic damage repairs",
+          "Maintains structural integrity during tremors",
+          "Uses locally-sourced seismic-ready materials",
+          "Complies with latest Oregon building codes"
+        ],
+        "faq": [
+          {
+            "question": "Will these features look industrial?",
+            "answer": "Our designs conceal technical elements - one Mt. Tabor project used decorative bronze expansion joints that became a design feature. Gabion walls get planted with cascading sedums for natural beauty."
+          },
+          {
+            "question": "How does this compare cost-wise?",
+            "answer": "Initial investment runs 15-20% higher than standard work, but prevents average $8,000 in earthquake damage based on OSU studies of 2018 quakes."
+          }
+        ]
+      },
+      {
+        "slug": "native-meadow-conversion",
+        "name": "Native Meadow Conversion",
+        "shortDescription": "Replace thirsty lawns with drought-proof native grasslands",
+        "description": "Traditional lawns waste 50% more water than native alternatives in Portland’s dry summers. Our meadow conversions use Pacific Northwest grasses like blue wildrye and California oatgrass that stay green with minimal irrigation.\n\nThe process begins with solarization to remove invasive species without herbicides. We then drill-seed at precise depths for optimal germination. For urban lots near Forest Park, we include deer-resistant flowering perennials like fawn lilies.\n\nMaintenance is minimal after establishment - just one annual mowing. Clients report 60% lower water bills and increased bird activity within the first year.",
+        "process": [
+          "Step 1: Soil analysis for amendment needs",
+          "Step 2: 8-week solarization process",
+          "Step 3: Precision seeding with native mycorrhizae",
+          "Step 4: Establishment phase monitoring"
+        ],
+        "benefits": [
+          "90% reduction in summer water use",
+          "Eliminates chemical fertilizers",
+          "Supports endangered pollinators",
+          "Qualifies for Portland water bureau rebates"
+        ],
+        "faq": [
+          {
+            "question": "Will this look unkempt?",
+            "answer": "We design structured meadows with mowed edges and intentional plant groupings. A recent Belmont project features winding stone paths through flowering areas for controlled wildness."
+          },
+          {
+            "question": "How long until full establishment?",
+            "answer": "Most meadows reach maturity in 18-24 months. We provide seasonal care guides and offer discounted follow-up visits during the transition period."
+          }
+        ]
+      },
+      {
+        "slug": "vertical-garden-systems",
+        "name": "Vertical Garden Systems",
+        "shortDescription": "Space-efficient urban gardening for Portland’s narrow lots",
+        "description": "Maximize growing space in close-packed neighborhoods with our structural living walls. These self-contained systems use recycled felt planters and drip irrigation to transform blank walls into productive gardens.\n\nFor Pearl District condos, we install modular panels with built-in water reservoirs that last 5 days between fillings. Eastside industrial conversions get rugged steel frame systems for hops or kiwi vines. All include automatic pH balancing for optimal plant health.\n\nOur proprietary soil blend combines coconut coir with biochar to prevent compaction in vertical applications. Maintenance plans include seasonal rotation of edible and ornamental plants.",
+        "process": [
+          "Step 1: Structural load assessment",
+          "Step 2: Custom panel fabrication",
+          "Step 3: Irrigation system integration",
+          "Step 4: Edible plant installation"
+        ],
+        "benefits": [
+          "Grows 10x more food per square foot",
+          "Insulates buildings year-round",
+          "Filters urban air pollution",
+          "No bending/kneeling required"
+        ],
+        "faq": [
+          {
+            "question": "What grows well vertically here?",
+            "answer": "Strawberries, dwarf blueberries, and Cascade hops thrive in our systems. For shade walls, we recommend Oregon oxalis and ferns that naturally grow on forest cliffs."
+          },
+          {
+            "question": "How is winter protection handled?",
+            "answer": "We install removable frost blankets with grommet systems for easy deployment. Hardy evergreens like kinnikinnick provide winter interest when edibles are dormant."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mikael R.",
+        "rating": 5,
+        "service": "Historic Property Landscaping",
+        "text": "Horizon restored our 1915 bungalow's original garden using archived photos from the Historical Society. They found century-old rose cultivars at a specialty nursery and replicated the gravel walkways with perfect mortar consistency. The drainage system they discreetly installed saved our basement during last winter's record rainfall.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Sophia K.",
+        "rating": 5,
+        "service": "Rain Garden Installation",
+        "text": "Our yard in the West Hills used to become a swamp every winter. Horizon's terraced rain garden handles the runoff beautifully while attracting hummingbirds with red-flowering currants. Three years later, the plants have filled in exactly as promised - zero maintenance beyond seasonal pruning.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Carlos T.",
+        "rating": 5,
+        "service": "Earthquake-Resilient Hardscaping",
+        "text": "The gabion wall Horizon built along our slope in the Pearl hasn't budged through three minor quakes. They incorporated our existing concrete rubble into the design, saving hauling fees. The steel cages are planted with sedums that change color seasonally - functional and beautiful.",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "Priya S.",
+        "rating": 5,
+        "service": "Native Meadow Conversion",
+        "text": "After years of struggling with brown lawns in summer, we converted to a native meadow in our Belmont backyard. Horizon's plant selection has something blooming from March to October. Our kids love spotting the swallowtail butterflies that now visit daily.",
+        "date": "2024-10-18"
+      },
+      {
+        "name": "James L.",
+        "rating": 5,
+        "service": "Vertical Garden Systems",
+        "text": "Our narrow lot in Alberta Arts couldn't fit a traditional garden. Horizon's living wall produces enough lettuce and herbs for our family of four, plus flowers for cutting. The automatic irrigation saved our plants during last summer's heat dome when we were away.",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "Naomi W.",
+        "rating": 5,
+        "service": "Historic Property Landscaping",
+        "text": "Finding someone who understood the specific needs of our 1927 Tudor was challenging until we met Horizon. They replicated the original parterre garden using antique boxwood varieties and even matched the decomposed granite paths found in period photographs. The Historical Landmarks Commission approved their plans without revisions.",
+        "date": "2024-08-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Portland Landscaping Services | Horizon Landscaping",
+        "description": "Specializing in moss management, rain gardens, and earthquake-resistant designs for Portland's unique climate. Serving Beaverton to Lake Oswego since 2012."
+      },
+      "about": {
+        "title": "About Our Portland Landscaping Company",
+        "description": "Learn how Horizon Landscaping combines historical preservation with modern sustainability practices for gardens that thrive in Oregon's climate."
+      },
+      "services": {
+        "title": "Specialized Landscaping Services in Portland",
+        "description": "From rain gardens to vertical plant walls, we solve unique challenges posed by Portland's wet winters and dry summers."
+      },
+      "contact": {
+        "title": "Contact Portland's Landscaping Experts",
+        "description": "Schedule a free consultation to discuss your project with our team. Serving Multnomah County and surrounding areas."
+      },
+      "reviews": {
+        "title": "Portland Landscaping Customer Reviews",
+        "description": "See what homeowners across Portland say about our historic property restorations and climate-adaptive designs."
+      },
+      "service-areas": {
+        "title": "Portland Metro Landscaping Service Areas",
+        "description": "Detailed information about our landscaping services in Beaverton, Hillsboro, Lake Oswego, Tigard, and surrounding communities."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 13,
+      "projectsCompleted": "850+",
+      "satisfaction": "98%",
+      "teamSize": "22"
+    },
+    "serviceAreas": [
+      {
+        "city": "Beaverton",
+        "slug": "beaverton-or",
+        "state": "OR",
+        "content": "Horizon Landscaping proudly serves Beaverton, OR, a thriving city with a population of around 100,000. Many homes here date back to the 1970s and 1980s, featuring classic suburban ranch-style designs that can benefit from modern landscaping upgrades. Our team specializes in creating low-maintenance, climate-appropriate designs that thrive in Beaverton's mild, wet winters with persistent rainfall. Whether you need drainage solutions, seasonal cleanups, or a full yard transformation, we tailor our services to fit your home's unique needs.",
+        "localContext": "Beaverton is known for its well-established neighborhoods with older ranch-style homes, making landscaping updates a popular choice for homeowners.",
+        "nearbyAreas": [
+          "Portland",
+          "Tigard",
+          "Hillsboro"
+        ]
+      },
+      {
+        "city": "Hillsboro",
+        "slug": "hillsboro-or",
+        "state": "OR",
+        "content": "Hillsboro, OR, is a rapidly growing city with a population of approximately 110,000, driven by its tech corridor and newer housing developments. Horizon Landscaping helps homeowners and businesses create outdoor spaces that complement Hillsboro's modern aesthetic while addressing the challenges of its mild, wet winters. From drought-resistant plantings to smart irrigation systems, we ensure your landscape stays vibrant year-round. Our team is experienced in working with HOAs and newer construction properties to meet community standards.",
+        "localContext": "Hillsboro's tech-driven growth has led to an influx of newer homes, often requiring landscaping that balances beauty and functionality.",
+        "nearbyAreas": [
+          "Beaverton",
+          "Forest Grove",
+          "Cornelius"
+        ]
+      },
+      {
+        "city": "Lake Oswego",
+        "slug": "lake-oswego-or",
+        "state": "OR",
+        "content": "Lake Oswego, OR, is an upscale community of about 40,000 residents, known for its stunning lakefront properties and meticulously maintained landscapes. Horizon Landscaping specializes in high-end designs that enhance the natural beauty of Lake Oswego's waterfront and hillside homes. We address the unique challenges of the area's mild, wet winters, offering solutions like erosion control, waterfront plantings, and luxury hardscaping. Our team understands the importance of curb appeal in this prestigious market.",
+        "localContext": "Lake Oswego's affluent neighborhoods demand premium landscaping that complements its scenic lakefront and hilly terrain.",
+        "nearbyAreas": [
+          "West Linn",
+          "Tualatin",
+          "Portland"
+        ]
+      },
+      {
+        "city": "Tigard",
+        "slug": "tigard-or",
+        "state": "OR",
+        "content": "Tigard, OR, is a family-friendly city with around 55,000 residents, featuring many 1970s-80s suburban homes that could use landscaping updates. Horizon Landscaping helps Tigard homeowners transform their outdoor spaces with designs that suit the area's mild, wet winters. Whether you're looking to add drought-tolerant plants, improve drainage, or create a more functional backyard, our team delivers personalized solutions. We also work with local businesses to enhance commercial properties with attractive, low-maintenance landscapes.",
+        "localContext": "Tigard's older suburban homes often need landscaping upgrades to improve functionality and curb appeal.",
+        "nearbyAreas": [
+          "Beaverton",
+          "Tualatin",
+          "Sherwood"
+        ]
+      },
+      {
+        "city": "Tualatin",
+        "slug": "tualatin-or",
+        "state": "OR",
+        "content": "Horizon Landscaping serves Tualatin, OR, a charming city with a mix of established neighborhoods and newer developments. Located along the Tualatin River, this area benefits from our expertise in water-wise landscaping and erosion control. We design landscapes that thrive in the region's mild, wet winters while requiring minimal upkeep. From riverfront properties to suburban yards, we create outdoor spaces that enhance your home's value and beauty.",
+        "localContext": "Tualatin's proximity to the river and blend of old and new homes make it ideal for customized landscaping solutions.",
+        "nearbyAreas": [
+          "Lake Oswego",
+          "Tigard",
+          "Sherwood"
+        ]
+      },
+      {
+        "city": "West Linn",
+        "slug": "west-linn-or",
+        "state": "OR",
+        "content": "West Linn, OR, is an affluent community known for its scenic views and upscale homes. Horizon Landscaping specializes in creating elegant, sustainable landscapes that complement West Linn's natural beauty. We address the challenges of the area's mild, wet winters with solutions like terracing for hillside properties and native plantings for low-maintenance beauty. Our team is experienced in working with high-end properties to deliver exceptional results.",
+        "localContext": "West Linn's hilly terrain and luxurious homes require sophisticated landscaping designs that harmonize with the environment.",
+        "nearbyAreas": [
+          "Lake Oswego",
+          "Oregon City",
+          "Tualatin"
+        ]
+      },
+      {
+        "city": "Sherwood",
+        "slug": "sherwood-or",
+        "state": "OR",
+        "content": "Sherwood, OR, is a growing suburban city with a mix of historic charm and modern developments. Horizon Landscaping helps Sherwood residents create outdoor spaces that reflect their unique style while adapting to the area's mild, wet winters. From classic cottage gardens to contemporary hardscapes, we tailor our designs to your vision. Our team also specializes in drainage solutions to keep your yard lush and healthy year-round.",
+        "localContext": "Sherwood's blend of old and new homes offers diverse opportunities for creative landscaping projects.",
+        "nearbyAreas": [
+          "Tigard",
+          "Tualatin",
+          "Wilsonville"
+        ]
+      },
+      {
+        "city": "Wilsonville",
+        "slug": "wilsonville-or",
+        "state": "OR",
+        "content": "Wilsonville, OR, is a vibrant city with a mix of residential and commercial properties, all benefiting from professional landscaping. Horizon Landscaping designs outdoor spaces that thrive in Wilsonville's mild, wet winters, focusing on durability and beauty. Whether you need a corporate landscape upgrade or a backyard oasis, our team delivers tailored solutions. We also specialize in sustainable practices like rainwater harvesting and native plantings.",
+        "localContext": "Wilsonville's dynamic growth demands landscaping that enhances both homes and businesses.",
+        "nearbyAreas": [
+          "Tualatin",
+          "Sherwood",
+          "Aurora"
+        ]
+      },
+      {
+        "city": "Forest Grove",
+        "slug": "forest-grove-or",
+        "state": "OR",
+        "content": "Forest Grove, OR, is a historic city with a small-town feel and a growing need for professional landscaping services. Horizon Landscaping helps homeowners and businesses create outdoor spaces that withstand the area's mild, wet winters. From charming cottage gardens to functional hardscapes, we bring your vision to life. Our team is skilled in working with older homes, ensuring landscaping that respects the city's heritage.",
+        "localContext": "Forest Grove's historic charm calls for landscaping that balances tradition and modern functionality.",
+        "nearbyAreas": [
+          "Hillsboro",
+          "Cornelius",
+          "Gaston"
+        ]
+      },
+      {
+        "city": "Gresham",
+        "slug": "gresham-or",
+        "state": "OR",
+        "content": "Gresham, OR, is a diverse city with a range of landscaping needs, from urban lots to spacious suburban yards. Horizon Landscaping provides solutions tailored to Gresham's mild, wet winters, ensuring your landscape stays healthy and attractive year-round. We specialize in drought-tolerant designs, seasonal maintenance, and creative hardscaping to maximize your outdoor space. Our team understands the unique character of Gresham's neighborhoods and delivers personalized service.",
+        "localContext": "Gresham's varied housing styles and climates require adaptable landscaping approaches.",
+        "nearbyAreas": [
+          "Portland",
+          "Troutdale",
+          "Fairview"
+        ]
+      },
+      {
+        "city": "Oregon City",
+        "slug": "oregon-city-or",
+        "state": "OR",
+        "content": "Oregon City, OR, is a historic community with a mix of older homes and new developments, all in need of professional landscaping. Horizon Landscaping helps residents navigate the challenges of the area's mild, wet winters with designs that prioritize drainage and sustainability. From terraced gardens for hillside properties to classic lawn replacements, we create outdoor spaces that enhance your home's appeal. Our team is experienced in preserving the area's historic charm while incorporating modern landscaping techniques.",
+        "localContext": "Oregon City's steep terrain and historic homes require specialized landscaping solutions.",
+        "nearbyAreas": [
+          "West Linn",
+          "Gladstone",
+          "Milwaukie"
+        ]
+      },
+      {
+        "city": "Milwaukie",
+        "slug": "milwaukie-or",
+        "state": "OR",
+        "content": "Milwaukie, OR, is a charming city with a strong sense of community and diverse landscaping needs. Horizon Landscaping designs outdoor spaces that thrive in Milwaukie's mild, wet winters, focusing on both beauty and functionality. Whether you're looking for a cozy backyard retreat or a low-maintenance front yard, we tailor our services to your lifestyle. Our team also specializes in eco-friendly practices like rain gardens and permeable paving.",
+        "localContext": "Milwaukie's mix of historic and modern homes offers unique opportunities for creative landscaping.",
+        "nearbyAreas": [
+          "Portland",
+          "Oregon City",
+          "Gladstone"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "rain-garden-installation": "/images/service-rain-garden-installation.webp",
+      "historic-property-landscaping": "/images/service-historic-property-landscaping.webp",
+      "earthquake-resilient-hardscaping": "/images/service-earthquake-resilient-hardscaping.webp",
+      "native-meadow-conversion": "/images/service-native-meadow-conversion.webp",
+      "vertical-garden-systems": "/images/service-vertical-garden-systems.webp"
+    },
+    "servicesResponsive": {
+      "rain-garden-installation": {
+        "src": "/images/service-rain-garden-installation.webp",
+        "srcset": "/images/service-rain-garden-installation-400w.webp 400w, /images/service-rain-garden-installation-800w.webp 800w, /images/service-rain-garden-installation-1200w.webp 1200w, /images/service-rain-garden-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "historic-property-landscaping": {
+        "src": "/images/service-historic-property-landscaping.webp",
+        "srcset": "/images/service-historic-property-landscaping-400w.webp 400w, /images/service-historic-property-landscaping-800w.webp 800w, /images/service-historic-property-landscaping-1200w.webp 1200w, /images/service-historic-property-landscaping.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "earthquake-resilient-hardscaping": {
+        "src": "/images/service-earthquake-resilient-hardscaping.webp",
+        "srcset": "/images/service-earthquake-resilient-hardscaping-400w.webp 400w, /images/service-earthquake-resilient-hardscaping-800w.webp 800w, /images/service-earthquake-resilient-hardscaping-1200w.webp 1200w, /images/service-earthquake-resilient-hardscaping.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "native-meadow-conversion": {
+        "src": "/images/service-native-meadow-conversion.webp",
+        "srcset": "/images/service-native-meadow-conversion-400w.webp 400w, /images/service-native-meadow-conversion-800w.webp 800w, /images/service-native-meadow-conversion-1200w.webp 1200w, /images/service-native-meadow-conversion.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "vertical-garden-systems": {
+        "src": "/images/service-vertical-garden-systems.webp",
+        "srcset": "/images/service-vertical-garden-systems-400w.webp 400w, /images/service-vertical-garden-systems-800w.webp 800w, /images/service-vertical-garden-systems-1200w.webp 1200w, /images/service-vertical-garden-systems.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
